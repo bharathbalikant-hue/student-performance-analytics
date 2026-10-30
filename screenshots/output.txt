@@ -1,0 +1,105 @@
+
+======================================================================
+1. DATASET OVERVIEW
+======================================================================
+Records : 20
+Columns : ['Student_ID', 'Name', 'Department', 'Maths', 'Python', 'Data_Science', 'English', 'Physics', 'Attendance']
+Missing values: 0
+
+First 5 rows:
+  Student_ID          Name Department  Maths  Python  Data_Science  English  Physics  Attendance
+0       S001   Aarav Reddy        CSE     88      92            85       78       81          94
+1       S002  Priya Sharma        CSE     76      84            79       88       72          90
+2       S003   Rahul Verma        ECE     54      61            58       66       49          78
+3       S004    Sneha Iyer        CSE     95      97            93       89       91          97
+4       S005   Karthik Rao         IT     42      55            47       60       38          68
+
+======================================================================
+2. STUDENT REPORT (Total, Average, Grade, Result)
+======================================================================
+Student_ID           Name Department  Total  Average Grade Result Attendance_Status
+      S001    Aarav Reddy        CSE    424     84.8     A   Pass                OK
+      S002   Priya Sharma        CSE    399     79.8     B   Pass                OK
+      S003    Rahul Verma        ECE    288     57.6     D   Pass                OK
+      S004     Sneha Iyer        CSE    465     93.0    A+   Pass                OK
+      S005    Karthik Rao         IT    242     48.4     E   Fail          Shortage
+      S006     Ananya Das         IT    415     83.0     A   Pass                OK
+      S007   Vikram Singh        ECE    337     67.4     C   Pass                OK
+      S008     Meera Nair        CSE    326     65.2     C   Pass                OK
+      S009    Rohit Kumar       MECH    220     44.0     E   Fail          Shortage
+      S010    Divya Patel         IT    441     88.2     A   Pass                OK
+      S011    Arjun Menon        ECE    354     70.8     B   Pass                OK
+      S012   Kavya Pillai        CSE    423     84.6     A   Pass                OK
+      S013    Suresh Babu       MECH    241     48.2     E   Fail          Shortage
+      S014   Lakshmi Devi         IT    362     72.4     B   Pass                OK
+      S015    Manoj Gupta       MECH    306     61.2     C   Pass                OK
+      S016    Nisha Joshi        CSE    398     79.6     B   Pass                OK
+      S017 Harsha Vardhan        ECE    246     49.2     E   Pass          Shortage
+      S018   Pooja Shetty         IT    456     91.2    A+   Pass                OK
+      S019     Imran Khan       MECH    289     57.8     D   Pass                OK
+      S020    Tejaswini K        CSE    368     73.6     B   Pass                OK
+
+======================================================================
+3. CLASS PERFORMANCE
+======================================================================
+Highest average : Sneha Iyer (93.0)
+Lowest average  : Rohit Kumar (44.0)
+Class average   : 70.0
+Std deviation   : 15.13
+Passed: 17 | Failed: 3 | Pass %: 85.0%
+
+======================================================================
+4. GRADE DISTRIBUTION
+======================================================================
+Grade
+A     4
+A+    2
+B     5
+C     3
+D     2
+E     4
+
+======================================================================
+5. SUBJECT-WISE ANALYSIS
+======================================================================
+     Subject  Average  Highest  Lowest  Failed
+     English    74.10       92      52       0
+      Python    72.25       97      46       0
+Data_Science    70.00       93      39       1
+       Maths    68.50       95      35       1
+     Physics    65.15       91      38       1
+
+Best subject  : English (avg 74.1)
+Weakest subject: Physics (avg 65.15)
+
+======================================================================
+6. TOP 5 PERFORMERS
+======================================================================
+Student_ID         Name Department  Total  Average Grade
+      S004   Sneha Iyer        CSE    465     93.0    A+
+      S018 Pooja Shetty         IT    456     91.2    A+
+      S010  Divya Patel         IT    441     88.2     A
+      S001  Aarav Reddy        CSE    424     84.8     A
+      S012 Kavya Pillai        CSE    423     84.6     A
+
+======================================================================
+7. DEPARTMENT-WISE SUMMARY
+======================================================================
+            Students  Avg_Marks  Avg_Attendance  Passed
+Department                                             
+CSE                7      80.09           90.00       7
+ECE                4      61.25           80.75       4
+IT                 5      76.64           87.20       4
+MECH               4      52.80           71.75       2
+
+======================================================================
+8. STUDENTS NEEDING ATTENTION
+======================================================================
+          Name  Average Result  Attendance
+   Karthik Rao     48.4   Fail          68
+   Rohit Kumar     44.0   Fail          62
+   Suresh Babu     48.2   Fail          70
+Harsha Vardhan     49.2   Pass          72
+
+======================================================================
+Full report saved to student_report.csv
